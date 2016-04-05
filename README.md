@@ -1,2 +1,10 @@
 # jsdoc_template
-navi by function description
+Navigation by function description
+
+Based on [docstrap][]
+
+Replace with ~/node_modules/jsdoc/templates/default/*
+
+
+
+[docstrap]: https://github.com/docstrap/docstrap
