@@ -496,7 +496,7 @@ exports.publish = function(taffyData, opts, tutorials) {
   sortOption = sortOption === undefined ? true : sortOption;
   sortOption = sortOption === true ? 'longname, version, since' : sortOption;
   if (sortOption) {
-    data.sort(sortOption);
+    // data.sort(sortOption); // 不按照字母排序，按照文档本身的顺序来做
   }
   helper.addEventListeners(data);
 
